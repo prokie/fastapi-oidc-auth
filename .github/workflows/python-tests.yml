@@ -39,4 +39,4 @@ jobs:
         chmod +x tests/wait_for_service.sh & bash tests/wait_for_service.sh http://localhost:8080 200 100
         
     - name: Run tests
-      run: nox -s tests   
+      run: nox -s test

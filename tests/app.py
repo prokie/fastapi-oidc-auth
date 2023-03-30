@@ -28,7 +28,7 @@ async def secret(request: Request) -> dict[str, str]:
 @app.get("/login")
 @oidc.require_login
 async def login(request: Request) -> dict[str, str]:
-    return {"message": "success", "user_info": request["user_info"]}
+    return {"message": "success"}
 
 
 @app.get("/logout")

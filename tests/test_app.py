@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-def test_successfull_login(browser_driver: webdriver):
+def test_successfull_login(server, browser_driver: webdriver.Chrome):
     """Try to login to the system."""
     browser_driver.delete_all_cookies()
     browser_driver.get("http://localhost:5000/login")
@@ -16,7 +16,7 @@ def test_successfull_login(browser_driver: webdriver):
     assert parsed_json["message"] == "success"
 
 
-def test_successful_logout(browser_driver: webdriver):
+def test_successful_logout(server, browser_driver: webdriver.Chrome):
     """Try to logout from the system."""
     browser_driver.get("http://localhost:5000/logout")
     assert browser_driver.current_url == "http://localhost:5000/"

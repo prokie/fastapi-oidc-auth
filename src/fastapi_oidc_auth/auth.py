@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 
 class OpenIDConnect:
-    well_known_pattern = "{}/auth/realms/{}/.well-known/openid-configuration"
+    well_known_pattern = "{}/realms/{}/.well-known/openid-configuration"
 
     def __init__(
         self,

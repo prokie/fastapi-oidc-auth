@@ -30,7 +30,7 @@ development = [
     "pep8-naming == 0.13.3",
     "pyproject-flake8 == 6.0.0.post1",
     "pytest-cov == 4.0.0",
-    "types-requests == 2.28.11.17",
+    "types-requests == 2.31.0.2",
     "selenium == 4.10.0",
 ]
 

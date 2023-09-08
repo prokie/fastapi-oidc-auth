@@ -22,7 +22,7 @@ development = [
     "black == 23.7.0",
     "mypy == 1.5.1",
     "nox == 2023.4.22",
-    "pytest == 7.4.1",
+    "pytest == 7.4.2",
     "pytest-cov == 4.1.0",
     "types-requests == 2.31.0.2",
     "selenium == 4.12.0",

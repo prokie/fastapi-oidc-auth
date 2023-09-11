@@ -19,7 +19,7 @@ license = { text = "GPL-3.0-or-later" }
 
 [project.optional-dependencies]
 development = [
-    "black == 23.7.0",
+    "black == 23.9.1",
     "mypy == 1.5.1",
     "nox == 2023.4.22",
     "pytest == 7.4.2",
